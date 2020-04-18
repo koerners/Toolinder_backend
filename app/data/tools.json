@@ -53,7 +53,7 @@
         "users": "Medium sized groups",
         "picture": "https://media-exp1.licdn.com/dms/image/C560BAQGdiNwx2SAlTQ/company-logo_200_200/0?e=2159024400&v=beta&t=WIoK3jCu1Gx5B37lwWe1JSDl-mguD7eoHfXOJZeUUas",
         "established": false,
-        "keywords": [
+        "keywords": [6
         ],
         "description": "Virtual Teacher's Lounge: Clanbeat is a growth support tool for schools, helping teachers and school leaders to connect, grow and create positive change in their students’ lives.",
         "pro": [
@@ -128,7 +128,8 @@
         "established": true,
         "keywords": [
             1,
-            2
+            2,
+            6
         ],
         "description": "Kommunikationstool für kostenlose Anrufe und Chats.",
         "pro": [
@@ -153,7 +154,8 @@
         "keywords": [
             0,
             1,
-            2
+            2,
+            6
         ],
         "description": "Businesstool für die nahtlose Kommunikation – unabhängig von Ort und Zeit.",
         "pro": [
