@@ -21,5 +21,9 @@
     {
         "id": 5,
         "text": "Would you like to use cloud computing services and work on one file with your students?"
+    },
+    {
+        "id": 6,
+        "text": "Do you have budget for the e-learning tool?"
     }
 ]
