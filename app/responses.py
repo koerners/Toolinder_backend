@@ -1,11 +1,9 @@
 import pandas as pd
-import regex as re
 
 # Gibt alle Tools zurück
 def loadAll():
     tools = pd.read_json(r'./data/tools.json')
     return tools.to_json(orient='records')
-
 
 
 # Lädt die Fragen aus dem JSON File und gibt sie zurück
@@ -22,61 +20,21 @@ def getKeywordById(id):
     return df.to_json(orient='records')
 
 
-# TODO: Hauptarbeit: Hier kommen die beantworteten Fragen rein und basierend darauf müssen die richtigen tools zurückgegeben werden
-# @input:
-# [
-#   {
-#     "q_id": 0,
-#     "response": true
-#   },
-#   {
-#     "q_id": 1,
-#     "response": false
-#   }
-# ]
-# ...
-#
-# @returns: In der vorgeschlagenen Reihenfolge:
-# [{
-#         "id": 0,
-#         "name": "ad laborum",
-#         "company": "PETICULAR",
-#         "price": "nisi dolor",
-#         "users": 1222,
-#         "picture": "http://placehold.it/32x32",
-#         "keywords": [
-#             5,
-#             15
-#         ],
-#         "pro": [
-#             "cillum pariatur",
-#             "aliquip deserunt"
-#         ],
-#         "con": [
-#             "aliqua esse}",
-#             "laborum est"
-#         ]
-#     }, ...]
-#
-
-# test_input = ['{"q_id": 0,"response": true}', '{"q_id": 1,"response": false}']
-
+# Hier kommen die beantworteten Fragen rein und basierend darauf müssen die richtigen tools zurückgegeben werden
 def calculateResult(content):
     tools = pd.read_json(r'./data/tools.json')
     questionsAndKeywords = pd.read_json(r'./data/questionKeyword.json')
 
     answers = pd.DataFrame(content)
 
-    print("------Antworten--------")
-    print(answers)
-    print("------Fragen und ihre Keywords--------")
-    print(questionsAndKeywords)
-    print("------Alle Tools--------")
-    print(tools)
+    # print("------Antworten--------")
+    # print(answers)
+    # print("------Fragen und ihre Keywords--------")
+    # print(questionsAndKeywords)
+    # print("------Alle Tools--------")
+    # print(tools)
 
     keywordsAndAnswers = pd.merge(answers, questionsAndKeywords, on='q_id')
-    print(keywordsAndAnswers)
-
     keywordsAndAnswers['keyword'] = keywordsAndAnswers.apply(lambda x: x.true if x.response is True else x.false,
                                                              axis=1)
     keywordsAndAnswers = keywordsAndAnswers.drop(['true', 'false', 'response'], axis=1).reset_index()
@@ -92,8 +50,8 @@ def calculateResult(content):
     tools['keyword_hits'] = tools.keywords.apply(countKeywords)
     tools = tools.sort_values(['keyword_hits'], ascending=0)
 
-    print(tools[['name', 'keyword_hits']])
+    tools = tools.loc[tools.keyword_hits != 0]
+    # print(tools[['name', 'keyword_hits']])
 
     return tools.to_json(orient='records')
 
-# calculateResult(test_input)
