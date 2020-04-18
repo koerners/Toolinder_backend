@@ -82,21 +82,15 @@ def calculateResult(content):
     keywordsAndAnswers = keywordsAndAnswers.drop(['true', 'false', 'response'], axis=1).reset_index()
 
     def countKeywords(keywords):
-        print(keywords)
-        print(' ')
-        print(keywordsAndAnswers.keyword)
-        print(' ')
+        keyword_list = keywordsAndAnswers['keyword'].tolist()
         count = 0
         for k in keywords:
-            if k in keywordsAndAnswers['keyword']:
-                print(k)
-                print(' ')
+            if k in keyword_list:
                 count += 1
         return count
 
-    print(keywordsAndAnswers)
-
     tools['keyword_hits'] = tools.keywords.apply(countKeywords)
+    tools = tools.sort_values(['keyword_hits'], ascending=0)
 
     print(tools[['name', 'keyword_hits']])
 
