@@ -35,26 +35,16 @@
     },
     {
         "id": 2,
-        "keyword": "Textchat",
+        "keyword": "Video Recording",
         "citations": [{
-                "text": "This paper explores four types of communication media: email, instant messaging, text messaging, and video chat.\n Comfort level, frequency of use, usefulness, reasons for using these media, and differences between peer-to-peer and peer-to-instructor interactions were examined.\n Over 90% of students were comfortable with email, instant messaging, and text messagingcompared to a 50% comfort level using video chat.\n Video chat was ranked as the least useful communication media with both peers and theinstructor. Student comments described unique benefits and challenges for each type of communication medium.",
-                "author": "Hendy Reginald Cuaca Dharmaa, Dhaniar Asmaranib Udiana, Puspa Dewic",
-                "source": "https://www.sciencedirect.com/science/article/pii/S1877050917321038"
+                "text": "sd", 
+                "author": "sds",
+                "source": "ds"
             }
         ]
     },
     {
         "id": 3,
-        "keyword": "Cloud Computing solutions",
-        "citations": [{
-                "text": "From student’s perspective, cloud computing are essential learning instructions for effective learning, students gain benefit from using cloud applications online to facilitate communication  and  collaboration  among  peers  when  carry  out  group  work,  an  active social  interaction  in  the  open  online  learning  environment  promote  creativity  and  self-directed learning.  Students  show  interest,  desire  and  positive  reading  attitude,  pay  more  attention  in  the classroom and feel learning satisfaction with the new teaching style, they learning improved and therefore  achieve  better  academic  grade.  As  a  whole,  cloud  computing  as  an  educational instruction  can  be  creative,  innovative  and  effective  teaching  solutions.",
-                "author": "Ting Sie King",
-                "source": "https://grdspublishing.org/index.php/people/article/view/395/2583"
-            }
-        ]
-    },
-    {
-        "id": 4,
         "keyword": "Voicechat",
         "citations": [{
                 "text": "sd", 
@@ -63,13 +53,23 @@
             }
         ]
     },
+        {
+        "id": 4,
+        "keyword": "Textchat",
+        "citations": [{
+            "text": "This paper explores four types of communication media: email, instant messaging, text messaging, and video chat.\n Comfort level, frequency of use, usefulness, reasons for using these media, and differences between peer-to-peer and peer-to-instructor interactions were examined.\n Over 90% of students were comfortable with email, instant messaging, and text messagingcompared to a 50% comfort level using video chat.\n Video chat was ranked as the least useful communication media with both peers and theinstructor. Student comments described unique benefits and challenges for each type of communication medium.",
+            "author": "Hendy Reginald Cuaca Dharmaa, Dhaniar Asmaranib Udiana, Puspa Dewic",
+            "source": "https://www.sciencedirect.com/science/article/pii/S1877050917321038"
+        }
+        ]
+    },
     {
         "id": 5,
-        "keyword": "Video Recording",
+        "keyword": "Cloud Computing solutions",
         "citations": [{
-                "text": "sd", 
-                "author": "sds",
-                "source": "ds"
+                "text": "From student’s perspective, cloud computing are essential learning instructions for effective learning, students gain benefit from using cloud applications online to facilitate communication  and  collaboration  among  peers  when  carry  out  group  work,  an  active social  interaction  in  the  open  online  learning  environment  promote  creativity  and  self-directed learning.  Students  show  interest,  desire  and  positive  reading  attitude,  pay  more  attention  in  the classroom and feel learning satisfaction with the new teaching style, they learning improved and therefore  achieve  better  academic  grade.  As  a  whole,  cloud  computing  as  an  educational instruction  can  be  creative,  innovative  and  effective  teaching  solutions.",
+                "author": "Ting Sie King",
+                "source": "https://grdspublishing.org/index.php/people/article/view/395/2583"
             }
         ]
     }

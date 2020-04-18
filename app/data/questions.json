@@ -1,29 +1,25 @@
 [{
         "id": 0,
-        "text": "ullamco quis et excepteur consequat ullamco elit amet elit sint"
+        "text": "Would you like to host material to download and organize class material per day?"
     },
     {
         "id": 1,
-        "text": "commodo dolor voluptate laborum aliqua commodo esse sit irure dolore"
+        "text": "Would you like to use video chat in your class?"
     },
     {
         "id": 2,
-        "text": "in ad velit proident et incididunt quis quis eu incididunt"
+        "text": "Would you like to use video recording?"
     },
     {
         "id": 3,
-        "text": "sunt esse nulla velit eiusmod velit dolor in proident tempor"
+        "text": "Would you like to use voice chat in your class?"
     },
     {
         "id": 4,
-        "text": "non cillum id in et officia tempor pariatur eu ea"
+        "text": "WOuld you like to use text chat in your class?"
     },
     {
         "id": 5,
-        "text": "aliqua incididunt culpa esse incididunt occaecat aliquip aute exercitation veniam"
-    },
-    {
-        "id": 6,
-        "text": "adipisicing id elit consectetur id culpa dolor non laboris voluptate"
+        "text": "Would you like to use cloud computing services and work on one file with your students?"
     }
 ]
