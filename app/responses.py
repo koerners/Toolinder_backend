@@ -1,6 +1,12 @@
 import pandas as pd
 import regex as re
 
+# Gibt alle Tools zurück
+def loadAll():
+    tools = pd.read_json(r'./data/tools.json')
+    return tools.to_json(orient='records')
+
+
 
 # Lädt die Fragen aus dem JSON File und gibt sie zurück
 def getQuestions():

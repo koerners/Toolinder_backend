@@ -29,9 +29,18 @@ def returnKeyword(self, id):
 
 
 # Nimmt die Antworten entgegen und gibt eine JSON mit den vorgeschlagenene Tools zurück
-@app.route('/result', methods=['POST'])
+@app.route('/result')
 def returnResult(request):
     content = json.loads(request.content.read())
     request.setHeader('Access-Control-Allow-Origin', '*')
     request.setHeader('Content-Type', 'application/json')
     return calculateResult(content)
+
+
+
+# Lädt alle Optionen
+@app.route('/loadAll')
+def returnAll(request):
+    request.setHeader('Access-Control-Allow-Origin', '*')
+    request.setHeader('Content-Type', 'application/json')
+    return loadAll()
