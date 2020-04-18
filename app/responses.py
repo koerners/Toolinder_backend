@@ -5,7 +5,7 @@ import regex as re
 # Lädt die Fragen aus dem JSON File und gibt sie zurück
 def getQuestions():
     df = pd.read_json(r'./data/questions.json')
-    return df.to_json(orient='index')
+    return df.to_json(orient='records')
 
 
 # Findet das Keyword basierend auf seiner ID
@@ -13,7 +13,7 @@ def getKeywordById(id):
     df = pd.read_json(r'./data/keywords.json')
     # TODO: Hier möchten wir natürlich nur das eine, gefragte Keyword zurückbekommen und nicht alle
     df = df.loc[df['id'].isin([id])]
-    return df.to_json(orient='index')
+    return df.to_json(orient='records')
 
 
 # TODO: Hauptarbeit: Hier kommen die beantworteten Fragen rein und basierend darauf müssen die richtigen tools zurückgegeben werden
@@ -58,6 +58,7 @@ def getKeywordById(id):
 def calculateResult(content):
     tools = pd.read_json(r'./data/tools.json')
     questionsAndKeywords = pd.read_json(r'./data/questionKeyword.json')
+
     answers = pd.DataFrame(content)
 
     print("------Antworten--------")
@@ -67,7 +68,15 @@ def calculateResult(content):
     print("------Alle Tools--------")
     print(tools)
 
+    keywordsAndAnswers = pd.merge(answers, questionsAndKeywords, on='q_id')
+    print(keywordsAndAnswers)
 
-    return tools.to_json(orient='index')
+    keywordsAndAnswers['keyword'] = keywordsAndAnswers.apply(lambda x: x.true if x.response is True else x.false, axis=1)
+    keywordsAndAnswers = keywordsAndAnswers.drop(['true', 'false'], axis=1)
+
+    #keywordsAndTools = pd.merge(keywordsAndAnswers, tools, on=)
+    print(keywordsAndAnswers)
+
+    return tools.to_json(orient='records')
 
 # calculateResult(test_input)
