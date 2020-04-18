@@ -27,7 +27,6 @@ def returnKeyword(self, id):
     self.setHeader('Content-Type', 'application/json')
     return getKeywordById(id)
 
-
 # Nimmt die Antworten entgegen und gibt eine JSON mit den vorgeschlagenene Tools zurück
 @app.route('/result')
 def returnResult(request):

@@ -64,6 +64,7 @@ def getKeywordById(id):
 def calculateResult(content):
     tools = pd.read_json(r'./data/tools.json')
     questionsAndKeywords = pd.read_json(r'./data/questionKeyword.json')
+
     answers = pd.DataFrame(content)
 
     print("------Antworten--------")
@@ -73,6 +74,14 @@ def calculateResult(content):
     print("------Alle Tools--------")
     print(tools)
 
+    keywordsAndAnswers = pd.merge(answers, questionsAndKeywords, on='q_id')
+    print(keywordsAndAnswers)
+
+    keywordsAndAnswers['keyword'] = keywordsAndAnswers.apply(lambda x: x.true if x.response is True else x.false, axis=1)
+    keywordsAndAnswers = keywordsAndAnswers.drop(['true', 'false'], axis=1)
+
+    #keywordsAndTools = pd.merge(keywordsAndAnswers, tools, on=)
+    print(keywordsAndAnswers)
 
     return tools.to_json(orient='records')
 
