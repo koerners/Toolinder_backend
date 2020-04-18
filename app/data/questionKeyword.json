@@ -1,6 +1,22 @@
-[{
-    "id":0,
-    "true":"Gratis",
-    "false":"Kostenpflichtig"
+[
 
-}]
+    {
+        "q_id": 0,
+        "true": 1,
+        "false": 5
+
+    },
+    {
+        "q_id": 1,
+        "true": 2,
+        "false": 5
+
+    },
+    {
+        "q_id": 2,
+        "true": 5,
+        "false": 5
+
+    }
+
+]
