@@ -1,4 +1,6 @@
 import pandas as pd
+import regex as re
+
 
 # Lädt die Fragen aus dem JSON File und gibt sie zurück
 def getQuestions():
@@ -49,12 +51,28 @@ def getKeywordById(id):
 #             "laborum est"
 #         ]
 #     }, ...]
-# 
+#
 
+# test_input = ['{"q_id": 0,"response": true}', '{"q_id": 1,"response": false}']
 
 def calculateResult(content):
     dfTools = pd.read_json(r'./data/tools.json')
-    print(content)
-   # TODO: Hauptteil
+    dfQuestionKeyword = pd.read_json(r'./data/questionKeyword.json')
+
+    answersDict = {k.strip('{"q_id": '): v.strip('"response": ').strip('}') for k, v in (re.split(',', x) for x in content)}
+
+    for key, value in answersDict.items():
+        if value == 'true':
+            answersDict[key] = True
+        else:
+            answersDict[key] = False
+
+    dfAnswers = pd.DataFrame.from_dict(answersDict, orient='index', columns=['answers'])
+
+    print(dfAnswers)
+
+    # TODO: Hauptteil
 
     return dfTools.to_json(orient='index')
+
+# calculateResult(test_input)
