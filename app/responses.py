@@ -2,15 +2,15 @@ import pandas as pd
 
 # Lädt die Fragen aus dem JSON File und gibt sie zurück
 def getQuestions():
-    df = pd.read_json (r'./data/questions.json')
+    df = pd.read_json(r'./data/questions.json')
     return df.to_json(orient='index')
 
 
 # Findet das Keyword basierend auf seiner ID
 def getKeywordById(id):
-    df = pd.read_json (r'./data/keywords.json')
+    df = pd.read_json(r'./data/keywords.json')
     # TODO: Hier möchten wir natürlich nur das eine, gefragte Keyword zurückbekommen und nicht alle
-
+    df = df.loc[df['id'].isin([id])]
     return df.to_json(orient='index')
 
 
@@ -53,7 +53,7 @@ def getKeywordById(id):
 
 
 def calculateResult(content):
-    dfTools = pd.read_json (r'./data/tools.json')
+    dfTools = pd.read_json(r'./data/tools.json')
     print(content)
    # TODO: Hauptteil
 
