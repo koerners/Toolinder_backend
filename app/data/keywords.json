@@ -1,40 +1,35 @@
 [{
         "id": 0,
-        "keyword": "velit",
+        "keyword": "Class management system", 
         "citations": [{
-                "text": "consequat eiusmod aliqua id commodo fugiat est proident eu ex anim deserunt esse minim elit",
-                "author": "Martinez Smith",
-                "source": "url"
+                "text": "Those using the Moodle platform regularly seem to get better grades  \n than those who rarely or never use it.",
+                "author": "Tomas Escobar-Rodriguez, Pedro Monge-Lozano",
+                "source": "https://www.sciencedirect.com/science/article/abs/pii/S0360131511002934"
             },
             {
-                "text": "consequat ea eiusmod eu cupidatat aute mollit occaecat Lorem in nisi duis esse aliquip elit",
-                "author": "Chandra Stewart",
-                "source": "url"
+                "text": "According to the analysis of the research it was found that the flipped classroom approach designed with using both the Khan Academy and mathematics software increased student achievement in double integral. It was also found that this learning approach enhanced students' understanding and provided visualization in mathematics teaching. Moreover, it was revealed that this approach promoted retention and made understanding much easier.",
+                "author": "Yilmaz Zengin",
+                "source": "https://eric.ed.gov/?id=EJ1137657"
             },
             {
-                "text": "et eu duis quis sint amet fugiat mollit consequat quis cupidatat proident non reprehenderit commodo",
-                "author": "Sheila Martinez",
-                "source": "url"
+                "text": "This could be possible if we manage to change the way of interacting with this science. The inte-gration of digital technologies can be an ally in this aim, as long as it is considered aresearch matter for Mathematics Education",
+                "author": "Patricia Salinas, Eliud Quintero and Xavier Sánchez",
+                "source": "https://link.springer.com/chapter/10.1007/978-3-319-20609-7_30"
             }
         ]
     },
     {
         "id": 1,
-        "keyword": "Voicechat",
+        "keyword": "Videochat",
         "citations": [{
-                "text": "eiusmod incididunt consectetur nulla eiusmod laboris tempor laborum pariatur consectetur mollit ex magna Lorem enim",
-                "author": "Burks Abbott",
-                "source": "url"
+                "text": "After  the  observation of basic Japanese grammar and speaking skill through e-learning on Skype and Zoom, the conclusions are Skype is sufficient to be used for e-learning  since  it  has  all  the  require  features  such  as  sharing  display,  video  chat,  and  text  chat,  the  problem is the unstable connection has caused the process of e-learning does not run smoothly, The finding indicates that Zoom is more recommended to be used for e-learning.",
+                "author": "Hendy Reginald Cuaca Dharmaa, Dhaniar Asmaranib Udiana, Puspa Dewic",
+                "source": "https://www.sciencedirect.com/science/article/pii/S1877050917321038"
             },
             {
-                "text": "eu do elit laboris ea sit nisi Lorem nostrud aute ut Lorem qui ea esse",
-                "author": "Chase Sawyer",
-                "source": "url"
-            },
-            {
-                "text": "in qui eu est laborum velit aute adipisicing esse sunt esse incididunt occaecat labore in",
-                "author": "Francesca Vazquez",
-                "source": "url"
+                "text": "This paper explores four types of communication media: email, instant messaging, text messaging, and video chat. Comfort level, frequency of use, usefulness, reasons for using these media, and differences between peer-to-peer and peer-to-instructor interactions were examined. Over 90% of students were comfortable with email, instant messaging, and text messagingcompared to a 50% comfort level using video chat.Video chat was ranked as the least useful communication media with both peers and theinstructor. Student comments described unique benefits and challenges for each type of communication medium.",
+                "author": "Robin H. Kay and Sharon Lauricella",
+                "source": "https://www.researchgate.net/publication/275549140_Investigating_and_Comparing_Communication_Media_Used_in_Higher_Education"
             }
         ]
     },
@@ -42,39 +37,24 @@
         "id": 2,
         "keyword": "Textchat",
         "citations": [{
-                "text": "magna commodo eiusmod esse enim dolore eu laboris exercitation quis ipsum ea et est minim",
-                "author": "Graham Russo",
-                "source": "url"
+                "text": "This paper explores four types of communication media: email, instant messaging, text messaging, and video chat. Comfort level, frequency of use, usefulness, reasons for using these media, and differences between peer-to-peer and peer-to-instructor interactions were examined. Over 90% of students were comfortable with email, instant messaging, and text messagingcompared to a 50% comfort level using video chat.Video chat was ranked as the least useful communication media with both peers and theinstructor. Student comments described unique benefits and challenges for each type of communication medium.",
+                "author": "Hendy Reginald Cuaca Dharmaa, Dhaniar Asmaranib Udiana, Puspa Dewic",
+                "source": "https://www.sciencedirect.com/science/article/pii/S1877050917321038"
             },
             {
                 "text": "laborum voluptate fugiat magna aute magna laborum culpa dolor est quis occaecat non ipsum exercitation",
                 "author": "Gamble Schroeder",
-                "source": "url"
-            },
-            {
-                "text": "proident in duis voluptate pariatur duis nisi commodo proident sit dolore deserunt eiusmod labore velit",
-                "author": "Shirley Michael",
                 "source": "url"
             }
         ]
     },
     {
         "id": 3,
-        "keyword": "aliquip",
+        "keyword": "Cloud Computing solutions",
         "citations": [{
-                "text": "culpa occaecat velit amet occaecat deserunt excepteur aliqua eu aute officia pariatur aliquip consectetur Lorem",
-                "author": "Misty Jensen",
-                "source": "url"
-            },
-            {
-                "text": "minim eu est magna sint ad laboris quis magna ipsum eu dolor cupidatat cillum cillum",
-                "author": "Cleo Whitehead",
-                "source": "url"
-            },
-            {
-                "text": "nisi mollit laboris deserunt cupidatat dolore nulla esse elit quis officia cillum culpa proident laboris",
-                "author": "Jaime Romero",
-                "source": "url"
+                "text": "From student’s perspective, cloud computing are essential learning instructions for effective learning, students gain benefit from using cloud applications online to facilitatecommunication  and  collaboration  among  peers  when  carry  out  group  work,  an  active social  interaction  in  the  open  online  learning  environment  promote  creativity  and  self-directed learning.  Students  show  interest,  desire  and  positive  reading  attitude,  pay  more  attention  in  the classroom and feel learning satisfaction with the new teaching style, they learning improved and therefore  achieve  better  academic  grade.  As  a  whole,  cloud  computing  as  an  educational instruction  can  be  creative,  innovative  and  effective  teaching  solutions.",
+                "author": "Ting Sie King",
+                "source": "https://grdspublishing.org/index.php/people/article/view/395/2583"
             }
         ]
     },
