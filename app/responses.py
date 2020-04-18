@@ -1,6 +1,12 @@
 import pandas as pd
 import regex as re
 
+# Gibt alle Tools zurück
+def loadAll():
+    tools = pd.read_json(r'./data/tools.json')
+    return tools.to_json(orient='records')
+
+
 
 # Lädt die Fragen aus dem JSON File und gibt sie zurück
 def getQuestions():
@@ -71,11 +77,28 @@ def calculateResult(content):
     keywordsAndAnswers = pd.merge(answers, questionsAndKeywords, on='q_id')
     print(keywordsAndAnswers)
 
-    keywordsAndAnswers['keyword'] = keywordsAndAnswers.apply(lambda x: x.true if x.response is True else x.false, axis=1)
-    keywordsAndAnswers = keywordsAndAnswers.drop(['true', 'false'], axis=1)
+    keywordsAndAnswers['keyword'] = keywordsAndAnswers.apply(lambda x: x.true if x.response is True else x.false,
+                                                             axis=1)
+    keywordsAndAnswers = keywordsAndAnswers.drop(['true', 'false', 'response'], axis=1).reset_index()
 
-    #keywordsAndTools = pd.merge(keywordsAndAnswers, tools, on=)
+    def countKeywords(keywords):
+        print(keywords)
+        print(' ')
+        print(keywordsAndAnswers.keyword)
+        print(' ')
+        count = 0
+        for k in keywords:
+            if k in keywordsAndAnswers['keyword']:
+                print(k)
+                print(' ')
+                count += 1
+        return count
+
     print(keywordsAndAnswers)
+
+    tools['keyword_hits'] = tools.keywords.apply(countKeywords)
+
+    print(tools[['name', 'keyword_hits']])
 
     return tools.to_json(orient='records')
 
