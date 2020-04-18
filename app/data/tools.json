@@ -1,106 +1,172 @@
 [{
         "id": 0,
+        "name": "eMathStudio",
+        "company": "FourFerries",
+        "price": "60.00 € per teacher",
+        "users": "Small to medium sized classes",
+        "picture": "https://emathstudio.com/img/share@w1200,h1200.02dbb3.png",
+        "established": false,
+        "keywords": [
+            0
+        ],
+        "description": "eMathStudio is your digital math notebook. It offers a new way of automatically checking math assignments that helps students understand what they don't understand.",
+        "pro": [
+            "Step-by-step checking of calculations",
+            "Notebooks designed for writing maths",
+            "Check students assignments automatically and give individual feedback"
+        ],
+        "con": [
+            "Only for maths",
+            "No video lectures"
+        ],
+        "website": "https://emathstudio.com/distance-learning"
+    },
+    {
+        "id": 1,
+        "name": "edX",
+        "company": "edX",
+        "price": "On request",
+        "users": "Large classes",
+        "picture": "https://partnerships.edx.org/hubfs/edX%20Logo%20-%20Square.png",
+        "established": true,
+        "keywords": [
+            0,
+            2
+        ],
+        "description": "edX is the trusted platform for education and learning. The Open edX platform provides the massively scalable learning software technology behind edX. With Open edX, educators can create innovative solutions to benefit students everywhere.",
+        "pro": [
+            "Lots of features and templates",
+            "Highly scalable",
+            "Non-Profit"
+        ],
+        "con": [
+            "Too big for small groups",
+            "Not private"
+        ],
+        "website": "https://www.edx.org"
+    },
+    {
+        "id": 2,
+        "name": "Cleanbeat",
+        "company": "Clanbeat Education",
+        "price": "Free until September 2020",
+        "users": "Medium sized groups",
+        "picture": "https://media-exp1.licdn.com/dms/image/C560BAQGdiNwx2SAlTQ/company-logo_200_200/0?e=2159024400&v=beta&t=WIoK3jCu1Gx5B37lwWe1JSDl-mguD7eoHfXOJZeUUas",
+        "established": false,
+        "keywords": [
+        ],
+        "description": "Virtual Teacher's Lounge: Clanbeat is a growth support tool for schools, helping teachers and school leaders to connect, grow and create positive change in their students’ lives.",
+        "pro": [
+            "Share information and gratitude",
+            "Voice and address concerns",
+            "Non-commercial and ads-free"
+        ],
+        "con": [
+            "No student managing",
+            "Purely school administration"
+        ],
+        "website": "https://www.clanbeat.com"
+    },
+    {
+        "id": 3,
+        "name": "zoom",
+        "company": "Zoom Video Communications, Inc.",
+        "price": "From 0.00 up to 18.99 € per month per moderator",
+        "users": "From 100 up to 1000 participants",
+        "picture": "https://lh3.googleusercontent.com/1DqxbUca62LmV1ehZirHGWYBef9Jrtl3DhZ4m6YBnWCUX-XNr3lcnYKb31R-7ukpKAw",
+        "established": true,
+        "keywords": [
+            1,
+            2,
+            3
+        ],
+        "description": "Videokommunikation für gemeinschaftliche Klassenräume von heute.",
+        "pro": [
+            "Digitale whiteboarding",
+            "Lecture recording",
+            "Screen sharing",
+            "video-breakout-rooms"
+        ],
+        "con": [
+            "No class-management-system",
+            "Time restriction depending on subscription"
+        ],
+        "website": "https://zoom.us"
+    },
+    {
+        "id": 4,
+        "name": "zoom Education",
+        "company": "Zoom Video Communications, Inc.",
+        "price": "Starts at 150.00 € per month for 20 moderators",
+        "users": "Small to large group sizes",
+        "picture": "https://lh3.googleusercontent.com/1DqxbUca62LmV1ehZirHGWYBef9Jrtl3DhZ4m6YBnWCUX-XNr3lcnYKb31R-7ukpKAw",
+        "established": true,
+        "keywords": [
+            1,
+            2,
+            3
+        ],
+        "description": "Videokommunikation für gemeinschaftliche Klassenräume von heute.",
+        "pro": [
+            "Digitale whiteboarding",
+            "Lecture recording",
+            "Screen sharing",
+            "video-breakout-rooms"
+        ],
+        "con": [
+            "No class-management-system"
+        ],
+        "website": "https://zoom.us/education"
+    },
+    {
+        "id": 5,
         "name": "Skype",
-        "company": "PETICULAR",
-        "price": "nisi dolor",
-        "users": 1222,
-        "picture": "http://placehold.it/32x32",
+        "company": "Microsoft",
+        "price": "Free",
+        "users": "Up to 50 participants",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/60/Skype_logo_%282019–present%29.svg",
         "established": true,
         "keywords": [
             1,
             2
         ],
+        "description": "Kommunikationstool für kostenlose Anrufe und Chats.",
         "pro": [
-            "cillum pariatur",
-            "aliquip deserunt"
+            "Screen sharing",
+            "Video recording",
+            "Digitale whiteboarding",
+            "Telephone calls possible for small fee"
         ],
         "con": [
-            "aliqua esse}",
-            "laborum est"
-        ]
+            "No class-management-system"
+        ],
+        "website": "https://www.skype.com/de/"
     },
     {
-        "id": 1,
-        "name": "Team Viewer",
-        "company": "CYTREK",
-        "price": "nisi laborum",
-        "users": 570,
-        "picture": "http://placehold.it/32x32",
+        "id": 5,
+        "name": "Skype for Business",
+        "company": "Microsoft",
+        "price": "Free for universities",
+        "users": "Up to 10.000 participants",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/05/Skype-for-Business.svg",
         "established": true,
         "keywords": [
-            7,
-            12
-        ],
-        "pro": [
-            "nostrud nisi",
-            "excepteur culpa"
-        ],
-        "con": [
-            "ex culpa}",
-            "id nulla"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "commodo aute",
-        "company": "YOGASM",
-        "price": "magna in",
-        "users": 1244,
-        "picture": "http://placehold.it/32x32",
-        "established": true,
-        "keywords": [
-            2,
-            3
-        ],
-        "pro": [
-            "minim ullamco",
-            "in proident"
-        ],
-        "con": [
-            "ad sint}",
-            "aliqua ipsum"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "adipisicing laborum",
-        "company": "OHMNET",
-        "price": "veniam consequat",
-        "users": 695,
-        "picture": "http://placehold.it/32x32",
-        "established": true,
-        "keywords": [
+            0,
             1,
-            7
+            2
         ],
+        "description": "Businesstool für die nahtlose Kommunikation – unabhängig von Ort und Zeit.",
         "pro": [
-            "Lorem excepteur",
-            "in voluptate"
+            "Screen sharing",
+            "Video recording",
+            "Digitale whiteboarding",
+            "Telephone calls possible for small fee",
+            "Class-management-system via Teams"
         ],
         "con": [
-            "dolor laborum}",
-            "quis reprehenderit"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "aute consectetur",
-        "company": "VIOCULAR",
-        "price": "laborum officia",
-        "users": 785,
-        "picture": "http://placehold.it/32x32",
-        "established": true,
-        "keywords": [
-            5,
-            9
+            "Overpowered for small groups",
+            "Only comes via Microsoft Teams"
         ],
-        "pro": [
-            "dolor do",
-            "veniam dolore"
-        ],
-        "con": [
-            "irure id}",
-            "excepteur eiusmod"
-        ]
+        "website": "https://www.microsoft.com/de-de/education/products/teams"
     }
 ]
