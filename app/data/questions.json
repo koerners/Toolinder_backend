@@ -29,5 +29,17 @@
     {
         "id": 7,
         "text": "Do you need a scalable solution that can host more than 100 participants?"
+    },
+    {
+        "id": 9,
+        "text": "Is there a need for an in-built e-mail messaging system?"
+    },
+    {
+        "id": 10,
+        "text": "Should the plattform also be available as a mobile App?"
+    },
+    {
+        "id": 11,
+        "text": "Should it be classical teaching or the students be able to collaborate with each other?"
     }
 ]
