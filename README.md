@@ -14,3 +14,4 @@ pip install -r requirements.txt
 sh startServer.sh 
 ```
 
+So geht das
