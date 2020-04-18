@@ -4,11 +4,11 @@
     },
     {
         "id": 1,
-        "text": "Would you like to use video chat in your class?"
+        "text": "Do you use video chat in your class?"
     },
     {
         "id": 2,
-        "text": "Would you like to use video recording?"
+        "text": "Should the video sessions be recorded?"
     },
     {
         "id": 3,
@@ -16,14 +16,14 @@
     },
     {
         "id": 4,
-        "text": "WOuld you like to use text chat in your class?"
+        "text": "Do you want a text chat in your class?"
     },
     {
         "id": 5,
-        "text": "Would you like to use cloud computing services and work on one file with your students?"
+        "text": "What about cloud computing services and working on one file with your students?"
     },
     {
         "id": 6,
-        "text": "Do you have budget for the e-learning tool?"
+        "text": "Is there a budget for the e-learning tool?"
     }
 ]
