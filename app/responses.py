@@ -56,23 +56,18 @@ def getKeywordById(id):
 # test_input = ['{"q_id": 0,"response": true}', '{"q_id": 1,"response": false}']
 
 def calculateResult(content):
-    dfTools = pd.read_json(r'./data/tools.json')
-    dfQuestionKeyword = pd.read_json(r'./data/questionKeyword.json')
+    tools = pd.read_json(r'./data/tools.json')
+    questionsAndKeywords = pd.read_json(r'./data/questionKeyword.json')
+    answers = pd.DataFrame(content)
 
-    answersDict = {k.strip('{"q_id": '): v.strip('"response": ').strip('}') for k, v in (re.split(',', x) for x in content)}
+    print("------Antworten--------")
+    print(answers)
+    print("------Fragen und ihre Keywords--------")
+    print(questionsAndKeywords)
+    print("------Alle Tools--------")
+    print(tools)
 
-    for key, value in answersDict.items():
-        if value == 'true':
-            answersDict[key] = True
-        else:
-            answersDict[key] = False
 
-    dfAnswers = pd.DataFrame.from_dict(answersDict, orient='index', columns=['answers'])
-
-    print(dfAnswers)
-
-    # TODO: Hauptteil
-
-    return dfTools.to_json(orient='index')
+    return tools.to_json(orient='index')
 
 # calculateResult(test_input)
