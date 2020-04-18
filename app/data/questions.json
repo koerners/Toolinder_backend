@@ -20,10 +20,14 @@
     },
     {
         "id": 5,
-        "text": "What about cloud computing services and working on one file with your students?"
+        "text": "Would you prefer cloud computing services so you can work on one file with your students?"
     },
     {
         "id": 6,
-        "text": "Is there a budget for the e-learning tool?"
+        "text": "Are you working with a specific budget for the e-learning tool?"
+    },
+    {
+        "id": 7,
+        "text": "Do you need a scalable solution that can host more than 100 participants?"
     }
 ]

@@ -17,6 +17,36 @@
         "true": 5,
         "false": 5
 
+    },
+    {
+        "q_id": 3,
+        "true": 3,
+        "false": 0
+
+    },
+    {
+        "q_id": 4,
+        "true": 4,
+        "false": 0
+
+    },
+    {
+        "q_id": 5,
+        "true": 5,
+        "false": 8
+
+    },
+    {
+        "q_id": 6,
+        "true": 6,
+        "false": 7
+
+    },
+    {
+        "q_id": 7,
+        "true": 7,
+        "false": 0
+
     }
 
 ]
