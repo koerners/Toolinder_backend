@@ -55,5 +55,6 @@ def getKeywordById(id):
 def calculateResult(content):
     dfTools = pd.read_json (r'./data/tools.json')
     print(content)
+   # TODO: Hauptteil
 
     return dfTools.to_json(orient='index')
