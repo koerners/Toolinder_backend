@@ -1,137 +1,110 @@
 [{
         "id": 0,
-        "keyword": "Class management system", 
+        "keyword": "Class management system",
         "citations": [{
-                "text": "Those using the Moodle platform regularly seem to get better grades \n than those who rarely or never use it.",
-                "author": "Tomas Escobar-Rodriguez, Pedro Monge-Lozano",
-                "source": "https://www.sciencedirect.com/science/article/abs/pii/S0360131511002934"
-            },
-            {
-                "text": "According to the analysis of the research it was found that the flipped classroom approach designed \n with using both the Khan Academy and mathematics software increased student achievement in \n double integral. It was also found that this learning approach enhanced students' understanding and \n provided visualization in mathematics teaching. Moreover, it was revealed that \n this approach promoted retention and made understanding much easier.",
-                "author": "Yilmaz Zengin",
-                "source": "https://eric.ed.gov/?id=EJ1137657"
-            },
-            {
-                "text": "This could be possible if we manage to change the way of interacting with this science.\n The integration of digital technologies can be an ally in \n this aim, as long as it is considered aresearch matter for Mathematics Education",
-                "author": "Patricia Salinas, Eliud Quintero and Xavier Sánchez",
-                "source": "https://link.springer.com/chapter/10.1007/978-3-319-20609-7_30"
-            }
-        ]
+            "text": "According to the analysis of the research it was found that the flipped classroom approach designed \n with using both the Khan Academy and mathematics software increased student achievement in \n double integral. It was also found that this learning approach enhanced students' understanding and \n provided visualization in mathematics teaching. Moreover, it was revealed that \n this approach promoted retention and made understanding much easier.",
+            "author": "Yilmaz Zengin",
+            "source": "https://eric.ed.gov/?id=EJ1137657"
+        }]
     },
     {
         "id": 1,
         "keyword": "Videochat",
         "citations": [{
-                "text": "After  the  observation of basic Japanese grammar and speaking skill through e-learning on Skype and Zoom,\n the conclusions are Skype is sufficient to be used for e-learning since it has all the required features\n such as sharing display, video chat, and text chat, the problem is the unstable connection has caused the\n process of e-learning to not run smoothly. The finding indicates that Zoom is more recommended to be used\n for e-learning.",
-                "author": "Hendy Reginald Cuaca Dharmaa, Dhaniar Asmaranib Udiana, Puspa Dewic",
-                "source": "https://www.sciencedirect.com/science/article/pii/S1877050917321038"
-            },
-            {
-                "text": "This paper explores four types of communication media: email, instant messaging, text messaging, and video chat.\n Comfort level, frequency of use, usefulness, reasons for using these media, and differences between peer-to-peer and peer-to-instructor interactions were examined.\n Over 90% of students were comfortable with email, instant messaging, and text messagingcompared to a 50% comfort level using video chat.\n Video chat was ranked as the least useful communication media with both peers and theinstructor. Student comments described unique benefits and challenges for each type of communication medium.",
-                "author": "Robin H. Kay and Sharon Lauricella",
-                "source": "https://www.researchgate.net/publication/275549140_Investigating_and_Comparing_Communication_Media_Used_in_Higher_Education"
-            }
-        ]
+            "text": "This paper explores four types of communication media: email, instant messaging, text messaging, and video chat.\n Comfort level, frequency of use, usefulness, reasons for using these media, and differences between peer-to-peer and peer-to-instructor interactions were examined.\n Over 90% of students were comfortable with email, instant messaging, and text messagingcompared to a 50% comfort level using video chat.\n Video chat was ranked as the least useful communication media with both peers and theinstructor. Student comments described unique benefits and challenges for each type of communication medium.",
+            "author": "Robin H. Kay and Sharon Lauricella",
+            "source": "https://www.researchgate.net/publication/275549140_Investigating_and_Comparing_Communication_Media_Used_in_Higher_Education"
+        }]
     },
     {
         "id": 2,
         "keyword": "Video Recording",
         "citations": [{
-                "text": "sd", 
-                "author": "sds",
-                "source": "ds"
-            }
-        ]
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l",
+            "author": "N.N.",
+            "source": ""
+        }]
     },
     {
         "id": 3,
         "keyword": "Voicechat",
         "citations": [{
-                "text": "sd", 
-                "author": "sds",
-                "source": "ds"
-            }
-        ]
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l",
+            "author": "N.N.",
+            "source": ""
+        }]
     },
-        {
+    {
         "id": 4,
         "keyword": "Textchat",
         "citations": [{
             "text": "This paper explores four types of communication media: email, instant messaging, text messaging, and video chat.\n Comfort level, frequency of use, usefulness, reasons for using these media, and differences between peer-to-peer and peer-to-instructor interactions were examined.\n Over 90% of students were comfortable with email, instant messaging, and text messagingcompared to a 50% comfort level using video chat.\n Video chat was ranked as the least useful communication media with both peers and theinstructor. Student comments described unique benefits and challenges for each type of communication medium.",
             "author": "Hendy Reginald Cuaca Dharmaa, Dhaniar Asmaranib Udiana, Puspa Dewic",
             "source": "https://www.sciencedirect.com/science/article/pii/S1877050917321038"
-        }
-        ]
+        }]
     },
     {
         "id": 5,
         "keyword": "Cloud Computing solutions",
         "citations": [{
-                "text": "From student’s perspective, cloud computing are essential learning instructions for effective learning, students gain benefit from using cloud applications online to facilitate communication  and  collaboration  among  peers  when  carry  out  group  work,  an  active social  interaction  in  the  open  online  learning  environment  promote  creativity  and  self-directed learning.  Students  show  interest,  desire  and  positive  reading  attitude,  pay  more  attention  in  the classroom and feel learning satisfaction with the new teaching style, they learning improved and therefore  achieve  better  academic  grade.  As  a  whole,  cloud  computing  as  an  educational instruction  can  be  creative,  innovative  and  effective  teaching  solutions.",
-                "author": "Ting Sie King",
-                "source": "https://grdspublishing.org/index.php/people/article/view/395/2583"
-            }
-        ]
+            "text": "From student’s perspective, cloud computing are essential learning instructions for effective learning, students gain benefit from using cloud applications online to facilitate communication  and  collaboration  among  peers  when  carry  out  group  work,  an  active social  interaction  in  the  open  online  learning  environment  promote  creativity  and  self-directed learning.  Students  show  interest,  desire  and  positive  reading  attitude,  pay  more  attention  in  the classroom and feel learning satisfaction with the new teaching style, they learning improved and therefore  achieve  better  academic  grade.  As  a  whole,  cloud  computing  as  an  educational instruction  can  be  creative,  innovative  and  effective  teaching  solutions.",
+            "author": "Ting Sie King",
+            "source": "https://grdspublishing.org/index.php/people/article/view/395/2583"
+        }]
     },
     {
         "id": 6,
         "keyword": "Free of cost",
         "citations": [{
-                "text":"sd",
-                "author": "sd",
-                "source": "sd"
-            }
-        ]
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l",
+            "author": "N.N.",
+            "source": "sd"
+        }]
     },
     {
         "id": 7,
         "keyword": "High scalability",
         "citations": [{
-                "text":"sd",
-                "author": "sd",
-                "source": "sd"
-            }
-        ]
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l",
+            "author": "N.N.",
+            "source": "sd"
+        }]
     },
     {
         "id": 8,
         "keyword": "Offline application",
         "citations": [{
-                "text":"sd",
-                "author": "sd",
-                "source": "sd"
-            }
-        ]
-    },   
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l",
+            "author": "N.N.",
+            "source": "sd"
+        }]
+    },
     {
         "id": 9,
         "keyword": "In-Built messaging system",
         "citations": [{
-                "text":"sd",
-                "author": "sd",
-                "source": "sd"
-            }
-        ]
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l",
+            "author": "N.N.",
+            "source": "sd"
+        }]
     },
     {
         "id": 10,
         "keyword": "App",
         "citations": [{
-                "text":"sd",
-                "author": "sd",
-                "source": "sd"
-            }
-        ]
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l",
+            "author": "N.N.",
+            "source": "sd"
+        }]
     },
     {
         "id": 11,
         "keyword": "Desktop only",
         "citations": [{
-                "text":"sd",
-                "author": "sd",
-                "source": "sd"
-            }
-        ]
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l",
+            "author": "N.N.",
+            "source": "sd"
+        }]
     }
 
 ]
