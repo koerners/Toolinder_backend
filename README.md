@@ -1,4 +1,6 @@
-# Toolinder_backend
+# Backend for Toolinder
+
+## [->Mainrepository<-](https://github.com/koerners/Toolinder)
 
 ## Development Setup:
 ```
@@ -12,4 +14,9 @@ pip install -r requirements.txt
 ```
 ```
 sh startServer.sh 
+```
+
+## Deployment
+```
+docker-compose up -d --build
 ```
