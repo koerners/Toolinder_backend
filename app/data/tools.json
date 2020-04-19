@@ -31,7 +31,8 @@
         "established": true,
         "keywords": [
             0,
-            2
+            2,
+            7
         ],
         "description": "edX is the trusted platform for education and learning. The Open edX platform provides the massively scalable learning software technology behind edX. With Open edX, educators can create innovative solutions to benefit students everywhere.",
         "pro": [
@@ -78,7 +79,9 @@
         "keywords": [
             1,
             2,
-            3
+            3,
+            4,
+            5
         ],
         "description": "Videokommunikation für gemeinschaftliche Klassenräume von heute.",
         "pro": [
@@ -104,7 +107,10 @@
         "keywords": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            7
         ],
         "description": "Videokommunikation für gemeinschaftliche Klassenräume von heute.",
         "pro": [
@@ -170,5 +176,180 @@
             "Only comes via Microsoft Teams"
         ],
         "website": "https://www.microsoft.com/de-de/education/products/teams"
+    },
+    {
+        "id": 7,
+        "name": "Piazza",
+        "company": "Piazza Technologies",
+        "price": "Free",
+        "users": "Unlimited",
+        "picture": "https://s3.amazonaws.com/UCBSF/media/49/media.png?1331247207",
+        "established": true,
+        "keywords": [
+            0,
+            4,
+            6,
+            7
+        ],
+        "description": "The incredibly easy, completely free Q&A platform.",
+        "pro": [
+            "LaTeX editor",
+            "Highlighted syntax and code blocking",
+            "Instructor endorsed answers to keep class on track",
+            "Anonymous posting encourages student participation",
+            "Customizable online polls"
+        ],
+        "con": [
+            "Confusing layout"
+        ],
+        "website": "https://piazza.com"
+    },
+    {
+        "id": 8,
+        "name": "edpuzzle",
+        "company": "EDpuzzle Inc.",
+        "price": "9.50 $ per month per teacher",
+        "users": "Unknown",
+        "picture": "https://www.toptools4learning.com/wp-content/uploads/2018/09/edpuzzle-e1537378616212.png",
+        "established": false,
+        "keywords": [
+            0,
+            2,
+            4
+        ],
+        "description": "We unlock the power of videos through simple editing tools and dazzling student data.",
+        "pro": [
+            "Self-paced learning with interactive video lessons",
+            "Use videos from YouTube, Khan Academy, Crash Course and more",
+            "Can integrate other tools like moodle or blackboard"
+        ],
+        "con": [
+            "No live-videochat"
+        ],
+        "website": "https://edpuzzle.com"
+    },
+    {
+        "id": 9,
+        "name": "thinglink",
+        "company": "thinglink",
+        "price": "35.00 $ per year per teacher",
+        "users": "Up to 60 students for free",
+        "picture": "https://www.gpb.org/sites/www.gpb.org/files/styles/redesign_800x450/public/blogs/images/2015/11/12/thinglinkforteachers.png?itok=yQtBetQm",
+        "established": false,
+        "keywords": [
+            0,
+            2,
+            4
+        ],
+        "description": "Easily create visual learning materials and virtual tours, empower students to work on projects and assignments using text, voice, photos, and video",
+        "pro": [
+            "Tag images, videos and 360° media with instant access to additional information",
+            "Instant feedback on content consumption",
+            "Easy to use editor for desktop and tablet"
+        ],
+        "con": [
+            "No live-videochat"
+        ],
+        "website": "https://www.thinglink.com"
+    },
+    {
+        "id": 10,
+        "name": "LabXChange",
+        "company": "Harvard College",
+        "price": "Free",
+        "users": "Unlimited",
+        "picture": "https://www.labxchange.org/assets/images/LabXchange-social-1017x1024.jpg",
+        "established": false,
+        "keywords": [
+            4,
+            6
+        ],
+        "description": "LabXChange curates and creates world-class digital content, delivered on a free, online platform that lets you integrate your learning and research experiences.",
+        "pro": [
+            "Flexible learning pathways",
+            "Experiment through virtual simulations",
+            "Share research with network of educators, students and researchers",
+            "Mentoring"
+        ],
+        "con": [
+            "No live-videochat"
+        ],
+        "website": "https://www.labxchange.org/explore"
+    },
+    {
+        "id": 11,
+        "name": "Kolibri",
+        "company": "Learning Equality",
+        "price": "Free",
+        "users": "Unlimited",
+        "picture": "https://i.pinimg.com/originals/01/a5/43/01a543c0ebbd69761a1598e22c1ff88e.png",
+        "established": false,
+        "keywords": [
+            2,
+            6,
+            8
+        ],
+        "description": "Kolibri makes high quality education technology available in low-resource communities such as rural schools, refugee camps, orphanages, non-formal school systems, and prison systems.",
+        "pro": [
+            "Smart technology to reach the most remote communities",
+            "Offline access to licensed educational content library",
+            "Includes exploratory materials, such as books, games, and simulations"
+        ],
+        "con": [
+            "No live-videochat",
+            "More for self-paced and self-sufficient learning",
+            "Maybe not customizable enough for advanced college classes"
+        ],
+        "website": "https://learningequality.org/kolibri/"
+    },
+    {
+        "id": 12,
+        "name": "Moodle",
+        "company": "Moodle Pty Ltd",
+        "price": "Free",
+        "users": "500 up to unlimited",
+        "picture": "https://www.einaudivr.edu.it/wp-content/uploads/2020/01/Moodle-1.png",
+        "established": true,
+        "keywords": [
+            0,
+            4,
+            6,
+            7
+        ],
+        "description": "Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments",
+        "pro": [
+            "Open Source",
+            "Free without licence fees",
+            "Lots of storage and users",
+            "Online tests and hand-ins",
+            "Discussion forums"
+        ],
+        "con": [
+            "No live-videochat "
+        ],
+        "website": "https://moodle.org"
+    },
+    {
+        "id": 13,
+        "name": "LearnCube",
+        "company": "LearnCube",
+        "price": "30 days free during Corona-Crisis",
+        "users": "8 students per class",
+        "picture": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_e2a47f2258d58e075258c7bc0fa528fa/learncube.png",
+        "established": false,
+        "keywords": [
+            1,
+            4
+        ],
+        "description": "LearnCube offers an intuitive, seamless virtual classroom software that's perfect for teachers and online schools wanting purpose-built features, better insights into the class and their own brand identity.",
+        "pro": [
+            "Interactive online whiteboard",
+            "Instant access to saved lesson materials",
+            "In-built troubleshooter"
+        ],
+        "con": [
+            "Focuses more on language classes"
+        ],
+        "website": "https://www.learncube.com"
     }
 ]
